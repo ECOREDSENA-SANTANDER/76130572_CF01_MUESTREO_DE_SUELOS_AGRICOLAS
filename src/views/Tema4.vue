@@ -7,6 +7,29 @@
         span 4
       h1 
 
+
+
+
+
+    separador
+    #t_1_1.titulo-segundo.mb-5
+      h2 
+
+    separador
+    #t_1_2.titulo-segundo.mb-5
+      h2
+
+    separador
+    #t_1_3.titulo-segundo.mb-5
+      h2
+
+    separador
+    #t_1_4.titulo-segundo.mb-5
+      h2
+
+      
+
+
 </template>
 
 <script>

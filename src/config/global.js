@@ -41,17 +41,17 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Clasificación y propiedades del suelo',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Subtema 1',
+            titulo: 'Morfología y perfil del suelo',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Subtema 1',
+            titulo: 'Caracterización del lote agrícola',
             hash: 't_1_3',
           },
           {
