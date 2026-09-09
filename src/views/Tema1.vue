@@ -25,10 +25,10 @@
       .col-lg-4
         .bg2.p-4.mb-0
           p.mb-0.mt-lg-1.mb-lg-1 El suelo constituye el principal recurso sobre el cual se desarrolla la actividad agrícola. Además de servir como soporte para las plantas, proporciona agua, nutrientes y oxígeno a las raíces, participa en el reciclaje de la materia orgánica, regula el movimiento del agua y actúa como hábitat de una gran diversidad de organismos que intervienen en los procesos biológicos responsables de mantener su fertilidad.
-      .col-lg-4
+      .col-lg-4.mb-lg-0.mb-4
         img(src='@/assets/curso/tema1/2.svg')
       .col-lg-4
-        img.img-t.mb-4(src='@/assets/curso/tema1/3.svg')
+        img.img-t.mb-4.d-none.d-lg-block(src='@/assets/curso/tema1/3.svg')
         p.mb-0 La productividad de un cultivo depende en gran medida de las condiciones físicas, químicas y biológicas del suelo. Un suelo con buena estructura, adecuada disponibilidad de nutrientes y correcta capacidad de retención de agua favorece el crecimiento de las plantas y mejora el rendimiento de las cosechas. En contraste, suelos degradados, compactados o con deficiencias nutricionales limitan el desarrollo radicular y disminuyen la productividad agrícola.
 
     .tit1.mb-5(data-aos="fade-right")
@@ -36,7 +36,7 @@
       h4.mb-0 a) Concepto de suelo
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.mb-lg-0.mb-4
         img(src='@/assets/curso/tema1/4.png')
       .col-lg-7
         p.mb-4 El suelo puede definirse como un cuerpo natural dinámico formado por partículas minerales, materia orgánica, agua, aire y organismos vivos que interactúan continuamente bajo la influencia del clima, el relieve, el material parental y el tiempo. Es el resultado de procesos físicos, químicos y biológicos que transforman las rocas y los residuos orgánicos hasta formar un medio capaz de sostener el crecimiento de las plantas.
@@ -115,7 +115,7 @@
             p.mb-0 Incluyen bacterias, hongos, actinomicetos, algas, protozoarios, lombrices, insectos y otros organismos que participan en la descomposición de la materia orgánica y en el reciclaje de nutrientes.
 
     .row.justify-content-center.align-items-start.mb-5
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/11.png')
       .col-lg-9
         .tarjeta.color-acento-coo.p-lg-1.p-4.mb-4(data-aos="fade-left")
@@ -127,12 +127,12 @@
         p.mb-0 Asimismo, facilita el intercambio gaseoso entre la atmósfera y las raíces, garantizando la disponibilidad de oxígeno para los procesos biológicos que ocurren en el subsuelo. También protege el sistema radicular frente a cambios extremos de temperatura y humedad. Además, constituye el hábitat de microorganismos, hongos, bacterias, lombrices y otros organismos que intervienen en la descomposición de la materia orgánica, el reciclaje de nutrientes y el mantenimiento del equilibrio biológico.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.mb-lg-0.mb-4
         img(src='@/assets/curso/tema1/13.png')
       .col-lg-7
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-2
-            img.img-t(src='@/assets/curso/tema1/14.svg')
+            img.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/14.svg')
           .col-lg-10.ps-lg-0
             p.mb-0 Desde el punto de vista ambiental, el suelo regula el ciclo hidrológico al favorecer la infiltración, el almacenamiento y la circulación del agua hacia los acuíferos. También funciona como un filtro natural que retiene sedimentos y sustancias contaminantes antes de que lleguen a las fuentes hídricas. De igual manera, almacena importantes cantidades de carbono en la materia orgánica, lo que contribuye a reducir la concentración de dióxido de carbono en la atmósfera y a mitigar los efectos del cambio climático.
         p.mb-0 Estas funciones convierten al suelo en un recurso estratégico para la producción agrícola sostenible, la conservación de la biodiversidad y el mantenimiento de los servicios ecosistémicos. Su calidad influye directamente en la productividad: un suelo fértil favorece el desarrollo de sistemas radiculares vigorosos, el aprovechamiento eficiente del agua y los nutrientes, y una mayor resistencia de los cultivos frente a condiciones adversas.
@@ -184,7 +184,7 @@
         .titulo-sexto.mb-4
           h5 Tabla 2.
           | Factores de formación
-        .tabla-a.tab1
+        .tabla-a.tab1.table-responsive
           table
             thead
               tr
@@ -217,7 +217,7 @@
       img(:src="require_src('@/assets/curso/tema1/sub1.svg')")
       h4.mb-0 c) Funciones del suelo en los sistemas agrícolas
 
-    .row.fondo1.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-right")
+    .row.fondo1.p-5.p-lg-5.p-md-5.mb-0(data-aos="fade-right")
       .col-lg-12
         .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
           .col-lg-4.im1.d-none.d-lg-block
@@ -261,7 +261,7 @@
         .bg2.p-4.p-lg-3.mb-3
           p.mb-0.mx-lg-1 Los suelos presentan una amplia diversidad de características físicas, químicas y biológicas que determinan su capacidad para sustentar el crecimiento de las plantas y responder a las prácticas de manejo agrícola. Estas diferencias son el resultado de los procesos de formación del suelo, la influencia del clima, el relieve, el material parental, los organismos vivos y el tiempo. Por esta razón, no todos los suelos poseen el mismo potencial productivo ni requieren las mismas estrategias de manejo. 
         p.mb-0 La clasificación de los suelos permite agruparlos de acuerdo con sus propiedades y comportamiento, facilitando la identificación de sus fortalezas, limitaciones y aptitudes para diferentes usos agrícolas. Asimismo, el conocimiento de las propiedades físicas y químicas constituye una herramienta indispensable para interpretar los resultados de los análisis de laboratorio y formular recomendaciones relacionadas con la fertilización, el uso de correctivos y las prácticas de conservación.
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/22.png')
     
     p.mb-5 En el proceso de muestreo de suelos, comprender estas propiedades es fundamental, ya que permite delimitar áreas homogéneas, seleccionar adecuadamente los puntos de muestreo y garantizar que las muestras obtenidas representen las condiciones reales del lote agrícola.
@@ -280,7 +280,7 @@
         img(src='@/assets/curso/tema1/23.jpg', alt='Se presentan cuatro tipos de suelos agrícolas: arenoso, franco, limoso y arcilloso, diferenciados según su textura, capacidad de drenaje, retención de agua y nutrientes, fertilidad y tendencia a la compactación.')
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/24.png')
       .col-lg-9
         p.mb-4 Existen diversos sistemas de clasificación empleados a nivel mundial. Entre los más utilizados se encuentran la Taxonomía de Suelos del Departamento de Agricultura de los Estados Unidos (USDA Soil Taxonomy) y la Base Referencial Mundial del Recurso Suelo (WRB, por sus siglas en inglés), desarrollada por la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO). En Colombia, estas clasificaciones son utilizadas por entidades como el Instituto Geográfico Agustín Codazzi (IGAC) para los estudios de suelos y zonificación agroecológica.
@@ -291,7 +291,7 @@
         .titulo-sexto.mb-4
           h5 Tabla 3.
           | Clasificación de los suelos según la textura
-        .tabla-a.tab3
+        .tabla-a.tab3.table-responsive
           table
             thead
               tr
@@ -451,9 +451,9 @@
       h3.mb-0 b) Propiedades físicas del suelo
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-1
+      .col-lg-1.col-md-2.col-5.mb-lg-0.mb-4.mb-md-0
         img(src='@/assets/curso/tema1/25.svg')
-      .col-lg-11
+      .col-lg-11.col-md-10
         p.mb-0 Las propiedades físicas del suelo determinan su comportamiento frente al movimiento y la retención del agua, la circulación del aire y el crecimiento de las raíces. Su conocimiento permite evaluar las condiciones del terreno e identificar posibles limitaciones para el desarrollo de los cultivos.
 
     p.mb-5 Le invitamos a consultar el video 
@@ -472,7 +472,7 @@
         .titulo-sexto.mb-4
           h5 Tabla 4.
           | Propiedades físicas del suelo
-        .tabla-a.tab1
+        .tabla-a.tab1.table-responsive
           table
             thead
               tr
@@ -524,7 +524,7 @@
         .titulo-sexto.mb-4
           h5 Tabla 5.
           | Principales propiedades químicas del suelo
-        .tabla-a.tab1
+        .tabla-a.tab1.table-responsive
           table
             thead
               tr
@@ -569,7 +569,7 @@
       .col-lg-4
         .bg1.p-4.mb-0
           p.mb-0.mt-lg-1.mb-lg-1 La relación entre el suelo y las plantas constituye la base de la producción agrícola y del funcionamiento de los ecosistemas terrestres. El suelo proporciona a las plantas el soporte físico necesario para el anclaje y desarrollo de sus raíces, además de suministrar el agua, los nutrientes minerales y el oxígeno indispensables para el crecimiento, la fotosíntesis y el cumplimiento de sus funciones fisiológicas. La disponibilidad y el equilibrio de estos recursos determinan el desarrollo de los cultivos, su productividad y la calidad de las cosechas. 
-      .col-lg-4
+      .col-lg-4.mb-lg-0.mb-4
         img(src='@/assets/curso/tema1/26.png')
       .col-lg-4
         p.mb-0 A su vez, las plantas desempeñan un papel fundamental en la conservación y mejoramiento del suelo. La cobertura vegetal protege la superficie del terreno frente a la acción de la lluvia y el viento, reduciendo los procesos de erosión. Asimismo, la incorporación de residuos vegetales aporta materia orgánica que mejora la fertilidad y la estructura del suelo. El crecimiento de las raíces favorece la actividad de microorganismos benéficos, mejora la porosidad y facilita la circulación del agua y del aire. De igual manera, mediante la descomposición de los residuos vegetales, las plantas contribuyen al reciclaje de nutrientes, manteniendo la productividad y el equilibrio del ecosistema agrícola.
@@ -601,9 +601,9 @@
         img(src='@/assets/curso/tema1/28.png')
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1
-        img(src='@/assets/curso/tema1/29.svg')
-      .col-lg-11
+      .col-lg-1.col-md-2.col-5.mb-lg-0.mb-0.mb-md-0
+        img.d-none.d-md-block(src='@/assets/curso/tema1/29.svg')
+      .col-lg-11.col-md-10
         p.mb-0 El estudio de la morfología del suelo facilita la interpretación de procesos como la acumulación de materia orgánica, la lixiviación de minerales, la compactación, la presencia de capas endurecidas y el drenaje natural del terreno. Asimismo, proporciona información útil para la planificación de labores agrícolas, la selección de cultivos y la formulación de estrategias de manejo y conservación del recurso suelo.
 
     .tit.mb-5(data-aos="fade-right")
@@ -626,7 +626,7 @@
         .titulo-sexto.mb-4
           h5 Tabla 6.
           | Principales horizontes del suelo
-        .tabla-a.tab6
+        .tabla-a.tab6.table-responsive
           table
             thead
               tr
@@ -757,14 +757,14 @@
     p.mb-5 El subsuelo corresponde a la porción del perfil ubicada por debajo del horizonte superficial y comprende principalmente los horizontes B y C. Aunque posee menor contenido de materia orgánica, desempeña un papel importante en el almacenamiento de agua, la estabilidad del perfil y el desarrollo profundo de las raíces. 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.mb-lg-0.mb-4
         img(src='@/assets/curso/tema1/31.png')
       .col-lg-7
         p.mb-4 El subsuelo corresponde a las capas ubicadas por debajo del horizonte superficial y presenta características físicas, químicas y biológicas diferentes a las del suelo cultivable. En general, se caracteriza por tener una menor fertilidad natural debido a su reducido contenido de materia orgánica y a una menor disponibilidad de nutrientes. Asimismo, presenta una mayor densidad y un mayor contenido de arcillas, condiciones que pueden limitar la circulación del aire, el movimiento del agua y el crecimiento de las raíces. La actividad biológica también es menor, ya que existe una menor presencia de microorganismos y organismos del suelo en comparación con los horizontes superficiales.
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-9
             p.mb-0 A pesar de estas limitaciones, el subsuelo desempeña un papel importante dentro de los sistemas agrícolas, ya que contribuye a la estabilidad estructural del perfil del suelo y puede actuar como una reserva de humedad durante períodos de escasez de agua. En cultivos perennes, como frutales, café, cacao o sistemas agroforestales, las raíces pueden explorar estas capas profundas para aprovechar el agua y algunos nutrientes disponibles, favoreciendo la resistencia de las plantas frente a condiciones de sequía y mejorando la estabilidad del cultivo a largo plazo.
-          .col-lg-3
+          .col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/tema1/32.png')
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
@@ -772,7 +772,7 @@
         .titulo-sexto.mb-4
           h5 Tabla 7.
           | Factores que deben evaluarse
-        .tabla-a.tab6
+        .tabla-a.tab7.table-responsive
           table
             thead
               tr
@@ -811,12 +811,12 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
-        .bg2.p-4.mb-0
+        .bg2.p-4.mb-4.mb-lg-0
           p.mb-0.mt-lg-2.mb-lg-1.mx-lg-2 Estas diferencias deben identificarse previamente para delimitar áreas homogéneas y definir un plan de muestreo que garantice la representatividad de las muestras. Una caracterización adecuada permite disminuir errores en la interpretación de los análisis de laboratorio y mejorar la precisión de las recomendaciones relacionadas con la fertilización, el encalado y el manejo agronómico de los cultivos. 
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/33.png')
       .col-lg-5
-        img.img-t.mb-4(src='@/assets/curso/tema1/34.svg')
+        img.img-t.mb-4.d-none.d-lg-block(src='@/assets/curso/tema1/34.svg')
         p.mb-0 La caracterización del lote combina la observación directa del terreno, la recopilación de información histórica, el análisis de las condiciones ambientales y el reconocimiento de las prácticas agrícolas desarrolladas en el predio. De esta manera, el técnico obtiene una visión integral del sistema productivo y puede diseñar un proceso de muestreo acorde con las condiciones reales del terreno.
     
     .tit.mb-5(data-aos="fade-right")
@@ -832,7 +832,7 @@
         .titulo-sexto.mb-4
           h5 Tabla 8.
           | Factores que deben evaluarse
-        .tabla-a.tab8
+        .tabla-a.tab8.table-responsive
           table
             thead
               tr
@@ -892,7 +892,7 @@
                     li.d-flex.mb-0
                       i.lista-ul__vineta
                       p.mb-0 Aplicación de materia orgánica.
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/35.png')
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
@@ -900,7 +900,7 @@
         .titulo-sexto.mb-4
           h5 Tabla 9.
           | Variables que generan diferencias dentro del lote agrícola
-        .tabla-a.tab9
+        .tabla-a.tab9.table-responsive
           table
             thead
               tr

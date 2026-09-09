@@ -54,94 +54,66 @@ export default {
             titulo: 'Caracterización del lote agrícola',
             hash: 't_1_3',
           },
-          {
-            numero: '1.4',
-            titulo: 'Subtema 1',
-            hash: 't_1_4',
-          },
         ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Planificación técnica del muestreo de suelos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Subtema 1',
+            titulo: 'Diseño del plan de muestreo',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Subtema 1',
+            titulo: 'Normativa aplicable al muestreo de suelos agrícolas',
             hash: 't_2_2',
-          },
-          {
-            numero: '2.3',
-            titulo: 'Subtema 1',
-            hash: 't_2_3',
-          },
-          {
-            numero: '2.4',
-            titulo: 'Subtema 1',
-            hash: 't_2_4',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Herramientas, equipos e insumos para el muestreo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Subtema 1',
+            titulo: 'Equipos, insumos y preparación de herramientas',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Subtema 1',
+            titulo:
+              'Manuales técnicos para herramientas y equipos de muestreo de suelos',
             hash: 't_3_2',
-          },
-          {
-            numero: '3.3',
-            titulo: 'Subtema 1',
-            hash: 't_3_3',
-          },
-          {
-            numero: '3.4',
-            titulo: 'Subtema 1',
-            hash: 't_3_4',
           },
         ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: '',
+        titulo: 'Protocolos para el alistamiento del muestreo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Subtema 1',
+            titulo: 'Protocolos técnicos de preparación',
             hash: 't_4_1',
           },
           {
             numero: '4.2',
-            titulo: 'Subtema 1',
+            titulo: 'Protección ambiental durante el muestreo de suelos',
             hash: 't_4_2',
           },
           {
             numero: '4.3',
-            titulo: 'Subtema 1',
+            titulo:
+              'Lista de verificación para el alistamiento de herramientas e insumos',
             hash: 't_4_3',
-          },
-          {
-            numero: '4.4',
-            titulo: 'Subtema 1',
-            hash: 't_4_4',
           },
         ],
       },
@@ -292,7 +264,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional grado 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

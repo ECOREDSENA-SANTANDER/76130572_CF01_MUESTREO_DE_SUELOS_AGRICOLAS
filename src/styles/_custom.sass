@@ -105,47 +105,56 @@ figcaption
 .blue
   color: #1D4E89
 
+.bg3
+  background-color: #E8EDF3
 
+.bg4
+  background-color: #3B130C
+  border-radius: 20px
+.bg5
+  background-color: #59CA2F
+  border-radius: 20px 
 
-
-
-
-
-
-
-
-
-
+.color-terciario
+  background-color: #1A2018
 
 .tit
   background-color: #1A2018
-  border-radius: 0px 0px 10px 0px 
+  border-radius: 0px 0px 10px 0px
   width: fit-content
   padding: 8px 30px 8px 60px
   position: relative
   display: inline-flex
   align-items: center
   margin-left: 15px
-  & 
+  &::before
+    content: ''
+    position: absolute
+    top: -3px
+    left: 70px
+    width: 70%  
+    height: 5px
+    background-color: #6BBF3A
+    border-radius: 3px
+    z-index: 0
+  &
     h3
       color: white
+      position: relative
+      z-index: 1
 .tit img
   width: 60px
   height: 60px
   position: absolute
   top: 50%
-  left: -15px 
+  left: -15px
   transform: translateY(-50%)
   object-fit: contain
-  z-index: 1
+  z-index: 2
   @media only screen and (min-width: 768px) and (max-width: 1023px)
-    width: 55px
-    height: 55px
     top: 40%
   @media only screen and (max-width: 767px)
-    top: 48%
-    width: 55px
-    height: 55px
+    top: 51%
 
 .tit1
   background-color: #59CA2F
@@ -164,18 +173,14 @@ figcaption
   height: 20px
   position: absolute
   top: 50%
-  left: 10px 
+  left: 20px 
   transform: translateY(-50%)
   object-fit: contain
   z-index: 1
   @media only screen and (min-width: 768px) and (max-width: 1023px)
-    width: 55px
-    height: 55px
-    top: 40%
+    top: 48%
   @media only screen and (max-width: 767px)
     top: 48%
-    width: 55px
-    height: 55px
 
 .tarjeta--slyder.b1
   background-color: #A4B8D0
@@ -206,15 +211,151 @@ figcaption
   background-color: #CCCCCC
   border-radius: 20px
 
+.acordion__accion__btn--a
+  background-color: #FBB230
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azull
+  background-color: #59CA2F
+  h3
+    color: black
+.acordion__accion__btn--a i, .acordion__accion__btn--b i .activ
+  color: black
+.acordion.activ .acordion__activo .acordion__accion__btn--a
+  background-color: #FBB230
+  i
+    color: black !important
+.activ
+  .acordion__activo 
+    background-color: #EEFAE9!important
+    transition: all 0.3s ease-out
+    h3
+      color: black 
 
+.acordion__accion__btn--b
+  background-color: #FBB230
+  transition: all 0.3s ease-out
+  border: #FBB230
+  color: black
+.acordion__activo
+  background-color: #EEFAE9 !important
+  transition: all 0.3s ease-out
+  h3
+    color: black !important
+.tarjeta--grey
+  border-radius: 20px
+  background-color: #59CA2F
+  //h3
+    color: white
+.acordion.press .acordion__activo .acordion__accion__btn--b
+  background-color:#FBB230
+  color: black
 
+.fa-point
+  content: url('../assets/curso/tema2/ar.svg')
+  position: relative
+  width: 0.5em  
+  height: 0.5em 
+  top: 5px !important
 
+.tabs-c.color-primario .tabs-c__tab--active 
+  background-color: white
+  color: black !important
+  font-weight: 900
+.tabs-c__tab 
+  background-color: #EBE7E6
+  color: black
+  border-bottom: 6px solid #B0A09D
+.tabs-c.color-primario .tabs-c__tab--active 
+  border-bottom-color: #FBB230!important
+  background-color: #ffffff
+.tabs-c.color-primario .tabs-c__tab--active:before 
+  border-top-color: #FBB230
+.tabs-c__tab--active 
+  border-bottom: 6px solid !important
+.tabs-c__header 
+  margin-bottom: -7px
+.tabs-c__tab:after 
+  width: 2.5px
+  height: 25px
+  top: 50%
+  right: -2px
+  background-color: #E0E0E0
+//.fd3
+  background: url('../assets/curso/temas/t12/fondo4.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: bottom
+//.tabs-c
+  border-bottom: none
 
+.tarjeta-audio 
+  border: 3px solid
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: black
+.fst-italic 
+  font-style: normal !important
+.tarjeta.color-primario i
+  color: #000
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+  color: black
+  font-style: normal !important
+.tarjeta.color-primario * 
+  color: #000
 
+.fa-check.arbv
+  content: url('../assets/curso/tema3/arbv.svg')
+  position: relative
+  width: 1em  
+  height: 1em 
+  top: 0px !important
 
+.fa-check.arbc
+  content: url('../assets/curso/tema3/arbc.svg')
+  position: relative
+  width: 1em  
+  height: 1em 
+  top: 0px !important
 
+.tarjeta--azul 
+    background-color: #BCEAAB
 
+.color-acento-botones
+  .tabs-a__tab
+    padding: 12px 13px
+    font-size: 16px  
+    white-space: normal 
+    line-height: 1.4
+    min-height: 40px 
+  @media (min-width: 1200px) 
+    .col-xl-3
+      flex: 0 0 auto
+      width: 30%
+    .col-xl-9
+      flex: 0 0 auto
+      width: 70%
+.tabs-a__tab:last-child 
+  margin-bottom: 0 !important
+  background-color: #FFF7EA
+  color: black!important
+.color-a
+  background-color: #EBE7E6
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FBB230!important
+  color: black !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+  background-color: #FBB230!important
 
+.fa-check.arba
+  content: url('../assets/curso/tema4/arba.svg')
+  position: relative
+  width: 1em  
+  height: 1em 
+  top: 0px !important
+
+.cajon.color-terciario
+  background-color: #EBE7E6
+  &:before 
+    background-color: #1A2018
 
 
 //////////////////////////////////////TABLAS////////////////////////////////////
@@ -226,11 +367,18 @@ figcaption
 .tabla-a th
   border-color: #EBE7E6
 .tabla-a
+  &.table-responsive
+    overflow-x: auto
+    -webkit-overflow-scrolling: touch  
   table
     width: 100%
+    min-width: 900px  
+    table-layout: fixed
     th, td
       vertical-align: top
       text-align: left
+      word-wrap: break-word
+      overflow-wrap: break-word
       //border: none
   tbody
     //td:first-child
@@ -282,6 +430,27 @@ figcaption
   th:nth-child(2)
     width: 75%
 
+.tabla-a.tab11
+  th:nth-child(1)
+    width: 16%
+  th:nth-child(2)
+    width: 24%
+  th:nth-child(3)
+    width: 28%
+  th:nth-child(4)
+    width: 32%
+
+.tabla-a.tab12
+  th:nth-child(1)
+    width: 8%
+  th:nth-child(2)
+    width: 35%
+  th:nth-child(3)
+    width: 15%
+  th:nth-child(4)
+    width: 15%
+  th:nth-child(5)
+    width: 27%
 
 
 ////////////////////////TABLAS PEQUEÑAS//////////////////////////////
@@ -301,13 +470,24 @@ figcaption
       min-width: 500px !important 
 
 .tabla-a.tabla-peq.tabla1
-  table th
-    padding: 14px 15px
+  @media only screen and (min-width: 1024px)
+    table th
+      padding: 14px 15px
+    table td 
+      padding: 13px 15px
+    th:nth-child(1)
+      width: 21%
+    th:nth-child(2)
+      width: 27%
+    th:nth-child(3)
+      width: 51%
+
+.tabla-a.tabla-peq.tab10
   table td 
-    padding: 13px 15px
+    background-color: #FFFFFF
   th:nth-child(1)
-    width: 21%
+    width: 30%
   th:nth-child(2)
-    width: 27%
+    width: 20%
   th:nth-child(3)
-    width: 51%
+    width: 50%
